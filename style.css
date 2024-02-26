@@ -1,0 +1,44 @@
+body {
+    font-family: Arial,  sans-serif; /* keluarga font */
+    font-size: 11px; /* Ukuran font utama pada tag <p></p> */
+    background-color: #F2F2F2; /* Warna latar belakang laman web */
+    color: #333333; /* Warna teks */ 
+}
+h1 {
+    color: #23635E; /* Warna tajuk (header)*/
+    font-size: 48px; /* Ukuran font tajuk (header) */
+    font-family: "Plus Jakarta Sans", sans-serif;; /* Keluarga font yang digunakan di tajuk (header) */}
+h2 {
+    color: #595959; /* Warna tajuk (header)*/
+    font-size: 24px; /* Ukuran font tajuk (header) */
+    font-family: "Plus Jakarta Sans", sans-serif;; /* Keluarga font yang digunakan di tajuk (header) */
+}
+// <uniquifier>: Use a uniquifier for the class name
+// <weight>: Use a value from 200 to 800
+
+.plus-jakarta sans-<uniquifier> {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+@keyframes color-change {
+    0% {
+      color: blue;
+    }
+  
+    50% {
+      color: red;
+    }
+  
+    100% {
+      color: blue;
+    }
+}
+
+h1:hover { 
+   
+    animation: color-change 1s infinite;
+
+}
